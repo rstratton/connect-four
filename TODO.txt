@@ -1,0 +1,7 @@
+- Randomize which player is first
+- Add AI player
+- Colorize pieces
+- Indicate which piece was just placed
+- Showing winning pieces when somebody wins
+- Allow repeated game sessions
+- Improve game state display so that it replaces old output
