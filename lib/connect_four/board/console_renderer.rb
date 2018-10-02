@@ -27,7 +27,7 @@ class Board
     def draw_row(row)
       result = '|'
       row.each do |piece|
-        result << " #{piece.nil? ? ' ' : piece.token} |"
+        result << " #{piece.nil? ? ' ' : piece} |"
       end
       result << "\n"
       result

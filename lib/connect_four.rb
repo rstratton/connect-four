@@ -1,12 +1,11 @@
 require_relative 'connect_four/board'
-require_relative 'connect_four/board/piece'
 require_relative 'connect_four/board/console_renderer'
 
 class ConnectFour
   def initialize
     @board = Board.new
-    @current_player = Board::Piece.new('O')
-    @next_player = Board::Piece.new('X')
+    @current_player = 'O'
+    @next_player = 'X'
   end
 
   def play
